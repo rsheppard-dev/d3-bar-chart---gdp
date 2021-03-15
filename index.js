@@ -130,7 +130,7 @@ d3.json("https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/mas
             <p>$${gdp[i].toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,')} Billion`
           )
           .attr('data-date', data.data[i][0])
-          .style('left', i * barWidth + margin.left + 'px')
+          .style('left', i * barWidth + 100 + 'px')
           .style('top', graphHeight + 'px');
       })
 
